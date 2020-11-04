@@ -1,0 +1,16 @@
+Python 3.7.2 (tags/v3.7.2:9a3ffc0492, Dec 23 2018, 23:09:28) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> prog = {'JS':'Atom', 'CS':'VS', 'Python':['Pycharm','Sublime'],'Java':{'JSE':'Netbains','JEE':'Eclipse'}} #1. putting a list inside a dictionary as a value and 2. putting a dictionary inside a dictionary
+>>> prog
+{'JS': 'Atom', 'CS': 'VS', 'Python': ['Pycharm', 'Sublime'], 'Java': {'JSE': 'Netbains', 'JEE': 'Eclipse'}}
+>>> prog['JS']
+'Atom'
+>>> prog['Python']
+['Pycharm', 'Sublime']
+>>> prog['Python'][1]
+'Sublime'
+>>> prog['Java']
+{'JSE': 'Netbains', 'JEE': 'Eclipse'}
+>>> prog['Java']['JEE']
+'Eclipse'
+>>> 

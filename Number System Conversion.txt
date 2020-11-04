@@ -1,0 +1,34 @@
+Python 3.7.2 (tags/v3.7.2:9a3ffc0492, Dec 23 2018, 23:09:28) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> #Number System Conversion in Python
+>>> bin(25)
+'0b11001'
+>>> 0b0101 #binary to decimal
+5
+>>> oct(25)
+'0o31'
+>>> hex(25)
+'0x19'
+>>> hex(10)
+'0xa'
+>>> 0xf
+15
+>>> #try to find binary format of 31, 52, 65 #try to find decimal format 0b110011010
+>>> 2 ** 7
+128
+>>> 2 ** 8
+256
+>>> bin(31)
+'0b11111'
+>>> bin(52)
+'0b110100'
+>>> bin(65)
+'0b1000001'
+>>> 0b110011010
+410
+>>> a = 15
+>>> b = 12
+>>> x = (a//4 + b**3) < 2000 and (b % 4 != 0)
+>>> x
+False
+>>> 

@@ -1,0 +1,28 @@
+Python 3.7.2 (tags/v3.7.2:9a3ffc0492, Dec 23 2018, 23:09:28) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> tup = (21,36,14,25)
+>>> tup
+(21, 36, 14, 25)
+>>> tup[1]
+36
+>>> tup[1] = 33
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    tup[1] = 33
+TypeError: 'tuple' object does not support item assignment
+>>> tup.count
+<built-in method count of tuple object at 0x000002D8DBCF7598>
+>>> tup.count(36)
+1
+>>> tup.index(14)
+2
+>>> #Since we will not be able to change values in tuple, iteration is much speeder than in list
+>>> 
+>>> #SET
+>>> #set is a collection of unique elements
+>>> s = {22, 25, 14, 21, 5}
+>>> s
+{5, 14, 21, 22, 25}
+>>> s = {25,14,98,63,75,98}
+>>> s
+{98, 75, 14, 25, 63}

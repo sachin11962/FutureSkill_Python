@@ -1,0 +1,101 @@
+1. Write a code to find the cube of the number. Take the input from the user using input() and also using command line
+
+2. Write a code to check a given number is positive or negative
+
+3. Take three values from user and find the greates number from them.
+
+4. Write a code to print all the values from 1 to 100. Skip the numbers which are divisble by 3 or 5
+
+5. Write a code to print below pattern
+
+#####
+#####
+#####
+#####
+
+6. Print all the perfect square number between 1 and 500.
+
+7. Print first 50 fibonacci numbers.
+
+8. Check a given number is prime or not
+
+9. Print
+	1 2 3 4
+	2 3 4
+	3 4
+	4
+
+	A P Q R
+	A B Q R
+	A B C R
+	A B C D
+
+10. Write a code to sort the array in ascending order.
+
+11. Write a code to find factorial of a given number
+
+12. Create an array with 5 value and delete a value with index value 2
+
+13. Write a code to add 2 arrays using forloop.
+
+14. Write a code to find the maximum value from an array without using in-built function
+
+15. Take 10 names from the user and then count and display the number of users who has length more than 5 letters.
+
+16. Print Fibonacci series
+		- Filter if input is -ve number
+		- I want to print the last number which should be less than 100 which means fibonacci series should end at 89
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

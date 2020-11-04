@@ -1,0 +1,43 @@
+Python 3.7.2 (tags/v3.7.2:9a3ffc0492, Dec 23 2018, 23:09:28) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> data = {1:'Sachin', 2:'Kiran', 4:'Navin'}
+>>> data
+{1: 'Sachin', 2: 'Kiran', 4: 'Navin'}
+>>> data[4]
+'Navin'
+>>> data[1]
+'Sachin'
+>>> data[3]
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    data[3]
+KeyError: 3
+>>> data.get(1)
+'Sachin'
+>>> data.get(3)
+>>> print(data.get(3))
+None
+>>> data.get(1,'Not Found')
+'Sachin'
+>>> data.get(3,'Not Found')
+'Not Found'
+>>> keys = ['Sachin','Kiran','Navin']
+>>> values = ['Python','Java','JS']
+>>> data = dict(zip(keys,values))#combination of key and value pair
+>>> data
+{'Sachin': 'Python', 'Kiran': 'Java', 'Navin': 'JS'}
+>>> data['Kiran']
+'Java'
+>>> data['Monica']
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    data['Monica']
+KeyError: 'Monica'
+>>> data['Monica']  = 'CS'
+>>> data
+{'Sachin': 'Python', 'Kiran': 'Java', 'Navin': 'JS', 'Monica': 'CS'}
+>>> del data['Navin']
+>>> data
+{'Sachin': 'Python', 'Kiran': 'Java', 'Monica': 'CS'}
+>>> 
+>>> 

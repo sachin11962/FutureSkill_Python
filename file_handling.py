@@ -4,7 +4,7 @@
 # #print(f.read())
 #
 # print("Printing only 1st line")
-# # print(f.readline(),end="")
+# # print(f.readline(),end="") # end is added to avoid new line
 # # print(f.readline())
 # # print(f.readline())
 # print(f.readline(4)) #gives 4 characters in a line
@@ -29,10 +29,10 @@
 
 
 #### Print all the data about the image file
-f = open('DSC00007.JPG','rb')
+f = open('DSC00007.jpg', 'rb')
 
 # copying the image and making another image
-f1 = open('MyPic.JPG','wb')
+f1 = open('MyPic.jpg', 'wb')
 
 # for i in f:
 #     print(i)
